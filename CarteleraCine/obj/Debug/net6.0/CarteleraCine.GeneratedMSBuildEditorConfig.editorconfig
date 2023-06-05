@@ -1,0 +1,113 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CarteleraCine
+build_property.RootNamespace = CarteleraCine
+build_property.ProjectDir = C:\Users\edalb\OneDrive\Documentos\PROYECTOS\C#\ASP\movie_asp\CarteleraCine\CarteleraCine\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\edalb\OneDrive\Documentos\PROYECTOS\C#\ASP\movie_asp\CarteleraCine\CarteleraCine
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/edalb/OneDrive/Documentos/PROYECTOS/C\#/ASP/movie_asp/CarteleraCine/CarteleraCine/Views/Directors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlyZWN0b3JzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/edalb/OneDrive/Documentos/PROYECTOS/C\#/ASP/movie_asp/CarteleraCine/CarteleraCine/Views/Directors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlyZWN0b3JzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/edalb/OneDrive/Documentos/PROYECTOS/C\#/ASP/movie_asp/CarteleraCine/CarteleraCine/Views/Directors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlyZWN0b3JzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/edalb/OneDrive/Documentos/PROYECTOS/C\#/ASP/movie_asp/CarteleraCine/CarteleraCine/Views/Directors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlyZWN0b3JzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/edalb/OneDrive/Documentos/PROYECTOS/C\#/ASP/movie_asp/CarteleraCine/CarteleraCine/Views/Directors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlyZWN0b3JzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/edalb/OneDrive/Documentos/PROYECTOS/C\#/ASP/movie_asp/CarteleraCine/CarteleraCine/Views/Generoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJvZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/edalb/OneDrive/Documentos/PROYECTOS/C\#/ASP/movie_asp/CarteleraCine/CarteleraCine/Views/Generoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJvZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/edalb/OneDrive/Documentos/PROYECTOS/C\#/ASP/movie_asp/CarteleraCine/CarteleraCine/Views/Generoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJvZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/edalb/OneDrive/Documentos/PROYECTOS/C\#/ASP/movie_asp/CarteleraCine/CarteleraCine/Views/Generoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJvZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/edalb/OneDrive/Documentos/PROYECTOS/C\#/ASP/movie_asp/CarteleraCine/CarteleraCine/Views/Generoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJvZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/edalb/OneDrive/Documentos/PROYECTOS/C\#/ASP/movie_asp/CarteleraCine/CarteleraCine/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/edalb/OneDrive/Documentos/PROYECTOS/C\#/ASP/movie_asp/CarteleraCine/CarteleraCine/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/edalb/OneDrive/Documentos/PROYECTOS/C\#/ASP/movie_asp/CarteleraCine/CarteleraCine/Views/Peliculas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVsaWN1bGFzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/edalb/OneDrive/Documentos/PROYECTOS/C\#/ASP/movie_asp/CarteleraCine/CarteleraCine/Views/Peliculas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVsaWN1bGFzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/edalb/OneDrive/Documentos/PROYECTOS/C\#/ASP/movie_asp/CarteleraCine/CarteleraCine/Views/Peliculas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVsaWN1bGFzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/edalb/OneDrive/Documentos/PROYECTOS/C\#/ASP/movie_asp/CarteleraCine/CarteleraCine/Views/Peliculas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVsaWN1bGFzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/edalb/OneDrive/Documentos/PROYECTOS/C\#/ASP/movie_asp/CarteleraCine/CarteleraCine/Views/Peliculas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVsaWN1bGFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/edalb/OneDrive/Documentos/PROYECTOS/C\#/ASP/movie_asp/CarteleraCine/CarteleraCine/Views/Peliculas/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVsaWN1bGFzXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/edalb/OneDrive/Documentos/PROYECTOS/C\#/ASP/movie_asp/CarteleraCine/CarteleraCine/Views/Peliculas/ranking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVsaWN1bGFzXHJhbmtpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/edalb/OneDrive/Documentos/PROYECTOS/C\#/ASP/movie_asp/CarteleraCine/CarteleraCine/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/edalb/OneDrive/Documentos/PROYECTOS/C\#/ASP/movie_asp/CarteleraCine/CarteleraCine/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/edalb/OneDrive/Documentos/PROYECTOS/C\#/ASP/movie_asp/CarteleraCine/CarteleraCine/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/edalb/OneDrive/Documentos/PROYECTOS/C\#/ASP/movie_asp/CarteleraCine/CarteleraCine/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/edalb/OneDrive/Documentos/PROYECTOS/C\#/ASP/movie_asp/CarteleraCine/CarteleraCine/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-glkgz9enj4

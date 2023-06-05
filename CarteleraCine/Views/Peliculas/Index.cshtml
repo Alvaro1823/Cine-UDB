@@ -1,0 +1,74 @@
+﻿@model List<Pelicula>
+
+@{
+    ViewData["Title"] = "Cartelera de Peliculas";
+}
+
+<h1 class="text-secondary text-center p-2">Cartelera de Peliculas</h1>
+@if (Model.Count == 0)
+{
+        <div class="alert alert-warning" role="alert">
+            <p>No existen películas en este género.</p>
+        </div>
+}
+else
+{
+    <form asp-action="Index" class="row justify-content-end">
+        <div class="col-md-2">
+            <select name="idGenero" class="form-control">
+                <option value="">Seleccione un género</option>
+                @foreach (var genero in ViewData["Generos"] as SelectList)
+                {
+                    <option value="@genero.Value">@genero.Text</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-2">
+            <input type="submit" value="Filtrar" class="btn btn-primary" />
+        </div>
+    </form>
+    <hr></hr>
+    <div class="row col-md-12">
+@foreach (var item in Model) {
+        
+    <div class="col-md-6 mt-1">
+        <form asp-action="like">
+                <div class="row g-0">
+                <div class="card">
+                    <div class="row g-0">
+                        <div class="col-md-4 align-middle">
+                                    <img src="@item.Imagen" class="img-fluid rounded-start mt-5" />
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title text-bg-danger p-2">@Html.DisplayFor(modelItem => item.Titulo)</h5>
+                                <p>
+                                            <small><span class="badge text-bg-primary">@Html.DisplayFor(modelItem => item.IdDirectorNavigation.Nombre)</span> - <span class="badge text-bg-warning">@Html.DisplayFor(modelItem => item.IdGeneroNavigation.Nombre)</span></small>
+                                </p>
+                                <p class="card-text">
+                                    @Html.DisplayFor(modelItem => item.Descripcion)
+                                </p>
+                        
+                                <hr>
+                        
+                                    Te gusta esta pelicula?
+                        
+                                    <input type="hidden" asp-for="@item.Id" name="Id" />
+                                        <input type="submit" value="Me Gusta" class="btn btn-danger" /> | <span class="badge rounded-pill text-bg-primary"> Likes: <span class="badge text-bg-light">@Html.DisplayFor(modelItem => item.Puntos)</span></span>
+                       
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+
+        </div>
+            </form>
+    </div>
+       
+    <br>
+        
+}
+    </div>
+}

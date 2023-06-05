@@ -1,0 +1,121 @@
+﻿@model IEnumerable<CarteleraCine.Models.Pelicula>
+
+@{
+
+    ViewData["Title"] = "ranking";
+    
+}
+
+<h1 class="text-secondary text-center p-2">Ranking</h1>
+<div class="row mt-2">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                Top 5 de peliculas mas vistas
+            </div>
+            <div class="card-body">
+                <canvas id="charRankink"></canvas>
+            </div>
+        </div>
+
+    </div>
+</div>
+<table class="table mb-4">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Titulo)
+            </th>           
+            <th>
+                @Html.DisplayNameFor(model => model.Puntos)
+            </th>
+            <th>
+                Director
+            </th>
+            <th>
+                Genero
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Titulo)
+            </td>           
+            <td>
+                @Html.DisplayFor(modelItem => item.Puntos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdDirectorNavigation.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdGeneroNavigation.Nombre)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+@section Scripts 
+{
+    <script>
+
+        function resumenRanking() {
+
+            fetch("RankingChart")
+                .then((response) => {
+                    return response.ok ? response.json() : Promise.reject(response);
+                })
+                .then((dataJson) => {
+
+                    const labels = dataJson.map((item) => { return item.titulo })
+                    const values = dataJson.map((item) => { return item.puntos })
+
+
+                    const data = {
+                        labels: labels,
+                        datasets: [{
+                            label: 'puntos',
+                            data: values,
+                            backgroundColor: ['rgba(255, 99, 132, 0.2)',
+                                'rgba(255, 159, 64, 0.2)',
+                                'rgba(255, 205, 86, 0.2)',
+                                'rgba(75, 192, 192, 0.2)',
+                                'rgba(54, 162, 235, 0.2)'],
+                            borderWidth: 1
+                        }]
+                    };
+
+                    const config = {
+                        type: 'bar',
+                        data: data,
+                        options: {
+                            scales: {
+                                y: {
+                                    beginAtZero: true
+                                }
+                            }
+                        },
+                    };
+
+
+                    const canvasBarras = document.getElementById("charRankink");
+
+                    const graficoBarras = new Chart(canvasBarras, config);
+
+                }).catch((error) => {
+                    console.log(error)
+
+                })
+
+
+        }
+
+        $(document).ready(() => {
+            resumenRanking()
+        })
+
+
+    </script>
+}
